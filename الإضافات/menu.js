@@ -5,9 +5,9 @@ const os = require('os')
     let context = `
 ╔══════════════════════
 ║
-╠❐ 𝐁𝐎𝐓 𝐍𝐀𝐌𝐄 : 𝐌𝐢𝐥𝐥𝐢𝐞
+╠❐ chargho-bot by : youssef ech-charki
 ║
-╠❐ 𝐋𝐈𝐁𝐑𝐀𝐑𝐘   : 𝐁𝐚𝐢𝐥𝐞𝐲𝐬-𝐌𝐃
+╠❐ بوت لولاد قيسمي خاصة هه للمغاربة عامة
 ║
 ╠❐ 𝐔𝐏𝐓𝐈𝐌𝐄    : ${uptime}
 ║
@@ -22,7 +22,7 @@ const os = require('os')
 ╠❐ 𝐏𝐋𝐀𝐓𝐅𝐎𝐑𝐌: ${os.type()}
 ║
 ╚════════════════════════`
-await conn.sendTBI2(m.chat, context.trim(), wm,thumburl,`sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ `, `https://github.com/Neeraj-x0/Millie-MD`, null,null, `ᴀʟʟ ᴄᴏᴍᴍᴀɴᴅs`, `${ usedPrefix}lst`,m)
+await conn.sendTBI2(m.chat, context.trim(), wm,thumburl,`my instagram `, `https://instagram.com/charq_iii?igshid=YmMyMTA2M2Y=`, null,null, `ᴀʟʟ ᴄᴏᴍᴍᴀɴᴅs`, `${ usedPrefix}lst`,m)
 }
 handler.help = ['ᴍᴇɴᴜ']
 handler.tags = ['main']
